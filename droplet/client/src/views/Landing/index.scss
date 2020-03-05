@@ -1,0 +1,26 @@
+.landing {
+  background-color: #f9f8f9;
+  height: 100vh;
+  h2 {
+    margin: 0 !important;
+    text-align: center;
+    font-weight: 700 !important;
+    margin-top: 33% !important;
+  }
+  .login-link {
+    text-align: center;
+    display: block;
+  }
+  .github-link {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .landing-background {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}

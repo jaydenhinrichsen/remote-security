@@ -1,0 +1,28 @@
+.app-nav {
+  background-color: #fff !important;
+  padding: 0 !important;
+}
+
+.app-controls {
+  position: fixed;
+  bottom: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  button {
+    margin: 0.25rem;
+  }
+  margin-bottom: 0.75rem;
+}
+
+.app-layout {
+  background-color: #f9f8f9 !important;
+  max-height: 100vh;
+  overflow: hidden;
+  .app-content {
+    flex-direction: column;
+    max-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+}

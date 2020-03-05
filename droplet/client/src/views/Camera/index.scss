@@ -1,0 +1,36 @@
+.media-container {
+  width: 100%;
+  min-height: calc(100vw * 0.5625);
+  position: relative;
+  #live-player {
+    min-height: 100%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.scroll-container {
+  flex-grow: 2;
+  overflow-y: auto;
+}
+.stream-controls {
+  margin-bottom: 1.5rem !important;
+}
+.files {
+  .file-card {
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .media-container {
+    width: 1200px;
+    min-height: calc(1200px * 0.5625);
+    max-height: calc(1200px * 0.5625);
+    margin: auto;
+  }
+}

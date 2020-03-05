@@ -1,0 +1,2 @@
+process.env.DROPLET_ADDRESS = "DROPLET_IP";
+process.env.DROPLET_CONTROL_PORT = 6000;
