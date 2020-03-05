@@ -22,15 +22,16 @@ An old android phone running a Node.js server(via Termux) is used to connect to 
 
 **An important thing to note**
 
-The android phone uses a conventional SIM card to connect to the internet, which has the side effect placing the android phone behind a Carrier Grade NAT(CGNAT). This means that the phone can **NOT** receive inbound connections. Therefore, in order to communicate with the phone in any useful way, a persistent connection must be established between the remote server and the android phone. 
+The android phone uses a conventional SIM card to connect to the internet, which has the side effect placing the android phone behind a Carrier Grade NAT(CGNAT). This means that the phone can **NOT** receive inbound connections. Therefore, in order to communicate with the phone in any useful way, a persistent connection must be established between the remote server and the android phone. Additionally, the connection **MUST** be opened by the android phone first. 
 
+The solution to the above problem is a "control" or "command" connection(called a "control-interface" in this application). The control-interface lets the remote server(droplet) communicate and send/receive commands from the android phone.
 
+However, we face yet another problem. The droplet is not *actually* inside of the android's Local Area Network(LAN), it can only send/receive data from the android. This means that if we want to send commands to the cameras(like start an RTSP stream), we must tell the android to send the command to the camera and then have the android send us the result(a stream of data). This architecture is the same for sending/receiving data to/from the nodeMCU.
 
-## Why?
-The primary reason 
-
-
+This can be seen in the gifs below.
 
 ![](droplet-conn-demo.gif)
+
 ![](android-conn-demo.gif)
+
 ![](app-livefeed-demo.gif)
