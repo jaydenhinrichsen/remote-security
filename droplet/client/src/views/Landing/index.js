@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <div className="landing">
-      <Typography.Title level={2}>Tyvan Security</Typography.Title>
+      <Typography.Title level={2}>Remote Security</Typography.Title>
       <Link className="login-link" to="/login">
         Sign in to get started
       </Link>
