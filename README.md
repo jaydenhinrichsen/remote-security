@@ -37,7 +37,7 @@ Responses received from the the Android phone
 ![](droplet-conn-demo.gif)
 
 ---
-Command received from the Droplet server
+Commands received from the Droplet server
 
 ![](android-conn-demo.gif)
 
