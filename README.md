@@ -33,9 +33,12 @@ However, we face yet another problem. The Droplet is not *actually* inside of th
 This can be seen in the gifs below.
 
 Responses received from the the Android phone
+
 ![](droplet-conn-demo.gif)
 
+---
 Command received from the Droplet server
+
 ![](android-conn-demo.gif)
 
 
