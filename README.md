@@ -18,7 +18,7 @@ In short, the challenges can be boiled down to 3 things.
 3) Abysmal camera API documentation and support.
 
 ## The End Result
-An old android phone running a Node.js server(via Termux) is used to connect to a set of Reolink cameras , as well as a ESP8266 nodeMCU wifi controller. A DigitalOcean Droplet running a Node.js server is used to server a React application and send/receive data to/from the Android phone. Users can then view camera streams, turn on/off the alarm siren and lights, monitor the voltage of the system, etc.
+An old android phone running a Node.js server(via Termux) is used to connect to a set of Reolink cameras , as well as a ESP8266 nodeMCU wifi controller. A DigitalOcean Droplet running a Node.js server is used to serve a React application and send/receive data to/from the Android phone. Users can then view camera streams, turn on/off the alarm siren and lights, monitor the voltage of the system, etc.
 
 ![](app-livefeed-demo.gif)
 
